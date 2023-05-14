@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-14T10:09:02 IST" name="Default suite" finished-at="2023-05-14T10:09:08 IST" duration-ms="6005">
+    <groups>
+    </groups>
+    <test started-at="2023-05-14T10:09:02 IST" name="Default test" finished-at="2023-05-14T10:09:08 IST" duration-ms="6005">
+      <class name="com.spotify.testcases.CreatePlayList">
+        <test-method signature="createPlayListBodyAsAString()[pri:1, instance:com.spotify.testcases.CreatePlayList@4659191b]" started-at="2023-05-14T10:09:02 IST" name="createPlayListBodyAsAString" finished-at="2023-05-14T10:09:07 IST" duration-ms="4999" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPlayListBodyAsAString -->
+        <test-method signature="createPlayListWithinvalidPayload()[pri:1, instance:com.spotify.testcases.CreatePlayList@4659191b]" started-at="2023-05-14T10:09:07 IST" name="createPlayListWithinvalidPayload" finished-at="2023-05-14T10:09:07 IST" duration-ms="234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPlayListWithinvalidPayload -->
+        <test-method signature="updatePlayListBodyAsAString()[pri:2, instance:com.spotify.testcases.CreatePlayList@4659191b]" started-at="2023-05-14T10:09:07 IST" name="updatePlayListBodyAsAString" finished-at="2023-05-14T10:09:08 IST" duration-ms="361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updatePlayListBodyAsAString -->
+        <test-method signature="getAllPlayListBasedOnUserID()[pri:3, instance:com.spotify.testcases.CreatePlayList@4659191b]" started-at="2023-05-14T10:09:08 IST" name="getAllPlayListBasedOnUserID" finished-at="2023-05-14T10:09:08 IST" duration-ms="269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllPlayListBasedOnUserID -->
+      </class> <!-- com.spotify.testcases.CreatePlayList -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
